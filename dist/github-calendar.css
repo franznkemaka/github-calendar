@@ -1,26 +1,26 @@
 :root {
     --color-calendar-graph-day-bg: #dddbdb;
-    --color-calendar-graph-day-L1-bg: #39dd34;
-    --color-calendar-graph-day-L2-bg: #45a045;
-    --color-calendar-graph-day-L3-bg: #047526;
-    --color-calendar-graph-day-L4-bg: #0a4208;
+    --color-calendar-graph-day-L1-bg: #9be9a8;
+    --color-calendar-graph-day-L2-bg: #40c463;
+    --color-calendar-graph-day-L3-bg: #30a14e;
+    --color-calendar-graph-day-L4-bg: #216e39;
 }
 
 rect[data-score='0'] {
-    fill: var(--color-calendar-graph-day-bg);
+    fill: var(--color-calendar-graph-day-bg) !important;
 }
 rect[data-score='1'] {
     fill: var(--color-calendar-graph-day-L1-bg) !important;
 }
 
 rect[data-score='2'] {
-    fill: var(--color-calendar-graph-day-L2-bg);
+    fill: var(--color-calendar-graph-day-L2-bg) !important;
 }
 rect[data-score='3'] {
-    fill: var(--color-calendar-graph-day-L3-bg);
+    fill: var(--color-calendar-graph-day-L3-bg) !important;
 }
 rect[data-score='4'] {
-    fill: var(--color-calendar-graph-day-L4-bg);
+    fill: var(--color-calendar-graph-day-L4-bg) !important;
 }
 
 .calendar .width-full > .float-left {
